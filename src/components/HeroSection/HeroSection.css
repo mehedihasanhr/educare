@@ -1,0 +1,173 @@
+.h-btn{
+    color: rgb(235, 245, 245);
+    background: rgba(50,131,131,1);
+    transition: color 0.3s ease-in-out;
+    border: 1px solid rgba(50,131,131,0.3);
+}
+
+.h-btn:hover{
+    color: #328383;
+    background: rgba(50,131,131,0.1);
+    border: 1px solid rgba(50,131,131,0.3);
+}
+
+
+.hero-image{
+    width: 500px;
+    height: 500px;
+    position: relative;
+}
+
+.hero-image > img {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    z-index: 1;
+    transform: translate(-50%, 0%);
+}
+
+
+.blob-wrap{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    transform: translateY(-5%);
+}
+
+.blob-wrap > svg{
+    transform: rotate(120deg);
+}
+
+
+
+/* hero section particles */
+
+.h-circle-dot{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+}
+
+.h-circle-dot[data-index="0"]{
+    top: 15%;
+    left: 40%;
+}
+
+.h-circle-dot[data-index="1"]{
+    top: 76%;
+    left: 20%;
+}
+
+.h-circle-dot[data-index="2"]{
+    top: 85%;
+    left: 50%;
+}
+
+.h-circle-dot[data-index="3"]{
+    top: 70%;
+    left: 95%;
+}
+
+
+.h-circle-dot[data-index="4"]{
+    top: 20%;
+    left: 87%;
+}
+
+.h-circle-dot[data-index="5"]{
+    top: 50%;
+    left: 0%;
+}
+
+
+
+/* star particles */
+
+.h-star-icon{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+}
+
+
+.h-star-icon[data-index="0"]{
+    top: 18%;
+    left: 20%;
+}
+
+.h-star-icon[data-index="1"]{
+    top: 96%;
+    left: 90%;
+}
+
+.h-star-icon[data-index="1"] > svg {
+    width: 40px;
+    height: 40px;
+    opacity: 0.4;
+}
+
+.h-star-icon[data-index="2"]{
+    top: 50%;
+    left: 50%;
+}
+
+.h-star-icon[data-index="2"] > svg{
+    width: 40px;
+    height: 40px;
+    opacity: .5;
+}
+
+.h-star-icon[data-index="3"]{
+    top: 80%;
+    left: 30%;
+}
+
+
+.h-star-icon[data-index="3"] > svg {
+    width: 40px;
+    height: 40px;
+    opacity: .5;
+}
+
+.h-star-icon[data-index="4"]{
+    top:99%;
+    left: 5%;
+}
+
+
+.h-star-icon[data-index="4"] > svg {
+    width: 40px;
+    height: 40px;
+    opacity: .3;
+}
+
+
+/* eight dot */
+
+.h-eight-dot{
+    position: absolute;
+    width: fit-content;
+    height: fit-content;
+}
+
+.h-eight-dot[data-index="0"]{
+    top: 20%;
+    left: -3%;
+}
+
+.h-eight-dot[data-index="1"]{
+    top: 26%;
+    left: 53%;
+}
+
+.h-eight-dot[data-index="2"]{
+    top: 70%;
+    left: 75%;
+}
+
+.h-eight-dot[data-index="3"]{
+    top: 95%;
+    left: 30%;
+}
+
